@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            padding: 0px;
+            margin: 0px;
+            box-sizing: border-box;
+        }
+
+        main {
+            height: 1000px;
+            width: 100%;
+            background-color: #f1f3f6;
+        }
+
+        .parent {
+            height: 100vh;
+            width: 100%;
+            background-color: #f1f3f6;
+        }
+
+        #nav1 {
+            height: 60px;
+            width: 100%;
+            border: 1px solid transparent;
+            background-color: #2874f0;
+            position: sticky;
+            top: 0px;
+        }
+
+        #nav2 {
+            height: 40px;
+            width: 100%;
+            border: 1px solid transparent;
+            background-color: #fff;
+            box-shadow: 0px 0px 3px;
+        }
+
+        .parent {
+            height: 480px;
+            width: 820px;
+            border: 1px solid transparent;
+            margin: 20px auto;
+            background-color: #2874f0;
+        }
+
+        p {
+            font-size: 18px;
+            margin-top: 16px;
+            margin-left: 40px;
+            line-height: 150%;
+            color: #dbdbdb;
+            font-family: Inter, -apple-system, Helvetica, Arial, sans-serif;
+        }
+
+        h1 {
+            color: #fff;
+            margin-left: 40px;
+            margin-top: 40px;
+            font-family: Inter, -apple-system, Helvetica, Arial, sans-serif;
+        }
+
+
+        #child1 {
+            height: 480px;
+            width: 493px;
+            border: 1px solid white;
+            box-sizing: border-box;
+            background-color: #fff;
+            display: inline-block;
+            margin-top: -440px;
+            margin-left: 326px;
+            vertical-align: top;
+            padding: 50px;
+        }
+
+        img {
+            margin-top: 130px;
+            margin-left: 50px;
+        }
+
+        #div1 {
+            padding: 8px 10px 10px 0;
+            width: 100%;
+            color: #000;
+            font-size: inherit;
+            background: #fff;
+            border: none;
+            border-bottom: 1px solid #e0e0e0;
+            font-family: Inter, -apple-system, Helvetica, Arial, sans-serif;
+        }
+
+        input {
+            border: none;
+        }
+
+        #div2 {
+            margin-top: 50px;
+            color: #878787;
+            font-size: 12px;
+            font-weight: 400;
+        }
+
+        a {
+            color: #2874f0;
+        }
+
+        button {
+            background: #fb641b;
+            box-shadow: 0 1px 2px 0 rgba(0, 0, 0, .2);
+            border: none;
+            color: #fff;
+            width: 100%;
+            height: 48px;
+            font-size: 15px;
+            margin-top: 30px;
+        }
+
+        #div4{
+            margin-top: 200px;
+            margin-left: 80px;
+        }
+        
+    </style>
+</head>
+
+<body>
+    <main>
+        <nav class="nav" id="nav1"></nav>
+        <nav class="nav" id="nav2"></nav>
+        <div class="parent">
+            <h1>Login</h1>
+            <br>
+            <p>Get access to your Orders,<br> Wishlist and Recommendations</p>
+            <img src="https://static-assets-web.flixcart.com/fk-p-linchpin-web/fk-cp-zion/img/login_img_c4a81e.png"
+                alt="">
+            <div class="child" id="child1">
+                <form>
+                    <div id="div1">
+                        <input type="text" placeholder="Enter Email/Mobile number">
+                        <br>
+                    </div>
+                    <div id="div2">By continuing, you agree to Flipkart's <a href="#">Terms of Use</a> and <a
+                            href="#">Privacy Policy</a>.</div>
+                    <div id="div3"><button>Request OTP</button></div>
+                    <div id="div4"><a href="#" class="div4-a">New to Flipkart? Create an account</a></div>
+                </form>
+            </div>
+        </div>
+    </main>
+</body>
+
+</html>
