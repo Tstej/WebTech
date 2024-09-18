@@ -1,0 +1,206 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.team{
+    height: 800px;
+    width: 900px;
+    border: 1px solid ;
+    margin: 10px auto;
+    background-image: radial-gradient(orange, white, blue,green);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-content: space-around;
+    flex-wrap: wrap-reverse;
+    border-radius: 0px 100px 0px 100px;
+}
+
+.captain{
+    margin: 20px auto;
+    display: flex;
+    justify-content: center;
+}
+
+h1{
+    text-align: center;
+    color: white;
+    text-decoration: solid;
+    border: 1px solid ;
+    border-radius: 20px;
+    border-color: white;
+    background-color: black;
+    margin: 10px 20px;
+    height: 40px;
+    width: 300px;
+    display: inline-block;
+}
+
+.captain img{
+    height: 250px;
+    width: 250px;
+    border: 1px solid transparent;
+    border-radius: 20%;
+    box-shadow: 0px 0px 10px white;
+    margin: 20px auto;
+
+}
+
+h3{
+    border-color: white;
+    background-color: black;
+    color: white;
+    margin-top: 250px;
+    vertical-align: bottom;
+    border-radius: 20px;
+    text-align: center;
+    color: white;
+    text-decoration: solid;
+    border: 1px solid ;
+    border-radius: 20px;
+    border-color: white;
+    background-color: black;
+    height: 30px;
+    width: 200px;
+    display: inline-block;
+}
+
+.players{
+    height: 150px;
+    width: 100px;
+    margin: 8px;
+    border: 1px solid transparent;
+    align-self: center;
+    border-radius: 20px;
+    padding: 10px;
+    box-shadow: 5px 0px 0px black;
+}
+.players:hover{
+   box-shadow: 0px 0px 20px white;
+}
+h4:hover{
+    background-color: black;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px white;
+}
+
+.players h4{
+    color: white;
+    text-align: center;
+    margin-top: 100px;
+}
+
+#player1 {
+    background-image: url(./Images/akshar.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-clip: border-box;
+}
+
+#player2 {
+    background-image: url(./Images/arshdeep.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-clip: border-box;
+}
+
+#player3 {
+    background-image: url(./Images//bumrah.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-clip: border-box;
+}
+
+#player4 {
+    background-image: url(./Images/kuldeep.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-clip: border-box;
+}
+
+#player5 {
+    background-image: url(./Images/siraj.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-clip: border-box;
+}
+
+#player6 {
+    background-image: url(./Images/hardik.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-clip: border-box;
+}
+
+#player7 {
+    background-image: url(./Images/jadeja.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-clip: border-box;
+}
+
+#player8 {
+    background-image: url(./Images/rishabh.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-clip: border-box;
+}
+
+#player9 {
+    background-image: url(./Images/sanju.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-clip: border-box;
+}
+
+#player10 {
+    background-image: url(./Images/yuviChahal.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-clip: border-box;
+}
+
+#player11 {
+    background-image: url(./Images/p1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-clip: border-box;
+}
+
+#player12 {
+    background-image: url(./Images/p2.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-clip: border-box;
+}
+
+#player13 {
+    background-image: url(./Images/surya.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-clip: border-box;
+}
+
+#player14 {
+    background-image: url(./Images/shivamDube.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-clip: border-box;
+}
