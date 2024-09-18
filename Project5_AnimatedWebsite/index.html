@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Burger Delight</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Burger Delight</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#menu">Menu</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section id="home">
+        <div class="hero">
+            <h2>Welcome to Burger Delight</h2>
+            <p>"Unleash Your Cravings, Savor the Juiciest Burgers in Town!"</p>
+            <br><br>
+            <a href="#menu" class="btn">Check our menu</a>
+        </div>
+    </section>
+    <section id="burger"></section>
+    <section id="menu">
+        <h2>Our Menu</h2>
+        <div class="menu-item">
+            <img src="./Images/classic_burger.jpeg" alt="Classic Burger">
+            <h3>Classic Burger</h3>
+            <p>Juicy beef patty, fresh lettuce, tomato, and our special sauce.</p>
+        </div>
+        <div class="menu-item">
+            <img src="./Images/cheese_burger.jpeg" alt="Cheese Burger">
+            <h3>Cheese Burger</h3>
+            <p>All the goodness of our classic burger with melted cheese.</p>
+        </div>
+        <div class="menu-item">
+            <img src="./Images/bacon_burger.jpeg" alt="Bacon Burger">
+            <h3>Bacon Burger</h3>
+            <p>Classic burger topped with crispy bacon.</p>
+        </div>
+    </section>
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+            <button type="submit" class="btn">Send</button>
+        </form>
+    </section>
+    <footer>
+        <p>&copy; 2024 Burger Delight. All rights reserved.</p>
+    </footer>
+</body>
+</html>
