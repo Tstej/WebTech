@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    VALIDATION attribute
+    1.placeholder -
+    2.pattern - 
+    3.min length - length of field  char 
+    4.max length - length of field char
+    5.max - max range
+    6.min- min range
+    7.required - mandatory field
+    8.size - about the size of box
+    9.accepted - accept files of mentioned format  (default is all types)
+    10.multiple - accept multiple files at same time 
+    11.autofocus - ALWAYS AUTOFOCUS TO FIRST FIELD ONLY TO MAKE USER FRIENDLY
+    12.autocomplete - SUGGESTS PREVIOUSLY FILLED TEXTS ( it should be on or off) ....it requires id and name to be given
+    13.disabled - USER UNABLE TO WRITE
+   
+    
+    <!-- validation of form (CONTACT)-->
+
+     <!-- <form action="">
+        <label for="in">NAME</label>
+        <input type="text" pattern="[A-Z,a-z]{4}" id="in">
+        <br>
+        <label for="inp">CONTACT</label>
+        <input type="tel" name="" pattern="[0-9]{10}" id="inp">
+        <br>
+        <input type="submit" value="SUBMIT">
+         </form> -->
+         
+
+     <!-- FORM VALIDATION (TEL)-->
+
+       <!-- <form action="">
+        <label for="">TEL-012-345-56-789</label>
+        <br>
+        <input type="tel" placeholder="012-345-56-789"pattern="[0-9]{3}-[0-9]{3}-[0-9]{2}-[0-9]{3}" id="">
+        <br>
+        <input type="submit" value="SUBMIT">
+        </form>  -->
+
+    <!-- FORM VALIDATION OF DATE -->
+    <!-- <form action="">
+        <label for="">DATE VALIDATION 01-01-2000 TO 31-12-2021</label>
+        <br>
+        <input type="date" min="2000-01-01" max="2021-12-31" id="">
+        <br>
+        <input type="submit" value="SUBMIT">
+        </form> -->
+
+        <!-- FORM VALIDATION FOR MANDATORY FIELD -->
+        <!-- <form action="">
+            <label for="">MANDATORY FIELD</label>
+            <br>
+            <input type="text" id="" required>
+            <br>
+            <input type="submit" value="SUBMIT">
+            </form> -->
+        
+            <!-- validation with size -->
+             <!-- <form>
+                <label for="">50 char</label>
+                <input type="text" name="" min="50" max="50"id="">
+                <br>
+                <label for="">PINCODE</label>
+                <input type="number" name="" pattern="6" id="">
+                <label for="">AGE</label>
+                <input type="tel" name=""size="4" id="">
+                <input type="submit" value="SUBMIT">
+            </form>
+             -->
+
+             <!-- AUTOFOCUS AND ACCEPT  -->
+             <form>
+                <label for="inp">AUTOFOCUS</label>
+                <br>
+                <input type="text" autofocus  name="input"id="inp" autocomplete="on">
+                <br>
+
+                <label for="">ACCEPT ATTRIBUTE</label>
+                <br>
+                <input type="file" name="" accept=".html" id="">
+                <br> 
+                <label for="">DIFF types of FILES allowed   </label>    
+                <br>
+                <input type="file" name="" accept=".html,.docx" id="">
+                <br>
+                <label for="">MULTIPLE FILES</label>
+                <br>
+                <input type="file" accept=".html,docx" multiple>
+                <input type="submit" value="SUBMIT">
+             </form>
+
+</body>
+</html>

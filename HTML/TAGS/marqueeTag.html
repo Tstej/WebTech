@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marquee Tag</title>
+</head>
+<body>
+    <!-- behavior and direction attributes -->
+    <marquee behavior="" direction="">Default behavior is SCROLL and Default direction is LEFT</marquee>
+    <marquee behavior="scroll" direction="right">Behavior is SCROLL and Direction is RIGHT</marquee>
+
+    <marquee behavior="slide" direction="right" height="200">Behavior is SLIDE and Direction is RIGHT</marquee>
+    <marquee behavior="slide" direction="left"height="200">Behavior is SLIDE and Direction is LEFT</marquee>
+
+    <marquee behavior="scroll" direction="up" height="200">Behavior is SCROLL and Direction is UP</marquee>
+    <marquee behavior="scroll" direction="down" height="200">Behavior is SCROLL and Direction is DOWN</marquee>
+
+    <marquee behavior="slide" direction="up" height="200">Behavior is SLIDE and Direction is UP</marquee>
+    <marquee behavior="slide" direction="down" height="200">Behavior is SLIDE and Direction is DOWN</marquee>
+
+    <!-- hspace and vspace attributes -->
+    <marquee behavior="scroll" direction="left" height="200" vspace="100" hspace="100">Behavior is SCROLL and Direction is LEFT along with vspace and hspace</marquee>
+
+    <!-- scrolldelay attribute (delay time) -->
+    <marquee behavior="scroll" scrolldelay="60" direction="right">Behavior is SCROLL and Direction is RIGHT and scrolldelay by 60</marquee>
+    <marquee behavior="slide" direction="left"height="200">Behavior is SLIDE and Direction is LEFT and Default scrolldelayby 85</marquee>
+
+    <!-- scrollamount attribute (speed of content flow) -->
+    <marquee behavior="scroll" scrolldelay="60" direction="right" scrollamount="18">Behavior is SCROLL and Direction is RIGHT and scrolldelay by 60 / scrollamount is 18</marquee>
+    <marquee behavior="scroll" scrolldelay="60" direction="right" scrollamount="6">Behavior is SCROLL and Direction is RIGHT and scrolldelay by 60 / Default scrollamount is 6</marquee>
+
+    <!-- loop attribute -->
+    <marquee behavior="" direction="" loop="4" scrollamount="18">Default behavior is SCROLL and Default direction is LEFT and looping 4 times</marquee>
+
+    <!-- bgcolor -->
+    <marquee behavior="" direction="" bgcolor="yellow" loop="4" scrollamount="18">Default behavior is SCROLL and Default direction is LEFT and looping 4 times</marquee>
+
+    <marquee behavior="slide" direction="right" scrollamount="12"><img src="./1.jpg" alt="" height="100" width="100"></marquee>
+</body>
+</html>
